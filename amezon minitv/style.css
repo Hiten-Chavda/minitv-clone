@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+    /*header*/
+
+body{background-color: black;}
+.line{
+    height: 1px;
+    width: 100vw;
+    background-color: red;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+nav{
+    display: flex;
+    width: 100vw;
+    height: 8vh;
+    background-color: black;
+}
+nav img{
+    height: 45px;
+    padding-top:5px ;
+}
+nav .manage li{
+    display: inline;
+    color: white;
+    margin: 15px;
+}
+.manage{
+    margin-top: 15px;
+}
+nav li:hover{
+    cursor: pointer;
+    color: rgba(241, 6, 123, 0.799)
+}
+.logo{
+    display: flex;
+}
+
+/*main*/
+
+.arrange img{
+    width: 95vw;
+    padding: 0 5px 0 35px;
+}
+.box{
+    display: flex;
+    margin: 25px 50px 0 50px;
+    height: 25vh;
+    min-width: 90vw;
+    overflow: auto;
+}
+::-webkit-scrollbar{
+    height: 2px;
+    background-color: black;
+    color: blueviolet;
+}
+
+
+.box img{
+    height: 22vh;
+    width: 20vw;
+    padding: 2px;
+}
+h2{
+    color: white;
+    padding-left: 50px;
+    padding-top: 10px;
+
+}
+main img:hover{
+    cursor: pointer;
+    
+}
+.box2{
+    display: flex;
+    margin: 25px 50px 0 50px;
+    height: 25vh;
+    min-width: 90vw;
+    overflow: auto;
+}
